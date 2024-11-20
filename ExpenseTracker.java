@@ -170,7 +170,7 @@ public class ExpenseTrackerApp {
     public static class ExpenseManager {
         private static final String URL = "jdbc:mysql://localhost:3306/ex"; // Change to your database
         private static final String USER = "root"; // Your MySQL username
-        private static final String PASSWORD = "arsath@0307"; // Your MySQL password
+        private static final String PASSWORD = "password"; // Your MySQL password
 
         public boolean addExpense(double amount, String description, java.sql.Timestamp date) {
             int expenseIdToUse = getAvailableExpenseId();
